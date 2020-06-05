@@ -1,0 +1,140 @@
+/*
+Theme Name: Prpl pride
+Theme URI: https://www.andersnoren.se/teman/hitchcock-wordpress-theme/
+Template: twentytwenty
+Author: Kavya Gokul
+Author URI: https://properlypurple.com
+Tags: blog,three-columns,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,post-formats,sticky-post,theme-options,threaded-comments,translation-ready,grid-layout,portfolio,photography,block-styles,wide-blocks
+Version: 0.1.1591326730
+Updated: 2020-06-05 03:12:10
+
+*/
+
+* {
+    transition: all 0.3s ease;
+}
+
+.site-description {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.home .entry-header {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.color-accent,
+.color-accent-hover:hover,
+.color-accent-hover:focus,
+:root .has-accent-color,
+.has-drop-cap:not(:focus):first-letter,
+.wp-block-button.is-style-outline,
+a {
+ color: #C85F49;
+}
+blockquote,
+.border-color-accent,
+.border-color-accent-hover:hover,
+.border-color-accent-hover:focus {
+ border-color: #C85F49;
+}
+button:not(.toggle),
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.bg-accent,
+.bg-accent-hover:hover,
+.bg-accent-hover:focus,
+:root .has-accent-background-color,
+.comment-reply-link {
+ background-color: #C85F49;
+}
+.fill-children-accent,
+.fill-children-accent * {
+ fill: #C85F49;
+}
+
+
+
+
+@media(min-width: 700px) {
+    /* blog and archives */
+    .blog main > hr,
+    .archive main > hr {
+        display: none;
+    }
+    
+    .blog main {
+        width: calc(100% - 8rem);
+        margin: 40px auto 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    body:not(.singular) main > article:first-of-type {
+        padding: 0;
+    }
+
+    .blog .entry-title {
+        font-size: 2.8rem;
+    }
+
+    .blog article {
+        position: relative;
+    }
+    .blog article .entry-header {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: rgba( 0, 0, 0, 0.75 );
+        padding-bottom: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .blog article .entry-header * {
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .blog article .entry-header .entry-categories,
+    .blog article .entry-header .post-meta-wrapper {
+        margin: 5% 0 2%;
+    }
+
+    .blog article .featured-media:hover {
+        opacity: 0.2;
+    }
+
+    .blog article .featured-media {
+        margin: 0;
+        opacity: 1;
+        z-index: 2;
+    }
+
+    .blog article .featured-media-inner {
+        width: 100%;
+    }
+
+    .blog main > article {
+        padding: 0;
+        width: 30.7%;
+    }
+}
