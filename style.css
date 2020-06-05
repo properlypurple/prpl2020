@@ -137,4 +137,15 @@ input[type="submit"],
         padding: 0;
         width: 30.7%;
     }
+
+    .page .post-inner {
+        padding-top: 0;
+    }
+    .page .entry-content >::first-of-type {
+        margin-top: 0;
+    }
+
+    .post-meta-edit-link-wrapper {
+        display: none;
+    }
 }

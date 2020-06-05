@@ -12,7 +12,7 @@ if ( ! function_exists( 'prplpride_setup' ) ) :
 		);
         add_theme_support( 'custom-background', $args );
 
-        remove_theme_support( 'custom-header' );
+        //remove_theme_support( 'custom-header' );
         //remove_custom_image_header();
 
         //wp_enqueue_style( get_template_directory_uri(). '/style.css' );
@@ -25,10 +25,7 @@ if ( ! function_exists( 'prplpride_setup' ) ) :
         wp_enqueue_style( 'main', get_stylesheet_uri() );
         //wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
 
-        wp_dequeue_style( 'hitchcock_style' );
-        wp_deregister_style( 'hitchcock_style' );
-        wp_deregister_style( 'hitchcock_google_fonts' );
-        wp_deregister_style( 'hitchcock_fontawesome' ); 
+        
         
     }
     add_action( 'wp_enqueue_scripts', 'prplpride_scripts' );
