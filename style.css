@@ -146,8 +146,8 @@ input[type="submit"],
         display: none;
     }
 
-    .page .footer-top-visible .footer-nav-widgets-wrapper, 
-    .page .footer-top-hidden #site-footer {
+    .footer-top-visible .footer-nav-widgets-wrapper, 
+    .footer-top-hidden #site-footer {
         margin-top: 0;
     }
 }
