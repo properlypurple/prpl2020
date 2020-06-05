@@ -63,9 +63,6 @@ input[type="submit"],
  fill: #C85F49;
 }
 
-
-
-
 @media(min-width: 700px) {
     /* blog and archives */
     .blog main > hr,
@@ -147,5 +144,10 @@ input[type="submit"],
 
     .post-meta-edit-link-wrapper {
         display: none;
+    }
+
+    .page .footer-top-visible .footer-nav-widgets-wrapper, 
+    .page .footer-top-hidden #site-footer {
+        margin-top: 0;
     }
 }
