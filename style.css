@@ -64,7 +64,7 @@ input[type="submit"],
 }
 
 
-.singular .entry-header {
+.singular.page .entry-header {
     background-color: transparent;
 }
 
