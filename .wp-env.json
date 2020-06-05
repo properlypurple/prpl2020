@@ -1,0 +1,5 @@
+{
+	"core": null,
+	"themes": [ "https://downloads.wordpress.org/theme/twentytwenty.1.3.zip", "." ],
+	"plugins": [ "https://downloads.wordpress.org/plugin/gutenberg.8.2.1.zip" ]
+}
