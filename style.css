@@ -63,6 +63,11 @@ input[type="submit"],
  fill: #C85F49;
 }
 
+
+.singular .entry-header {
+    background-color: transparent;
+}
+
 @media(min-width: 700px) {
     /* blog and archives */
     .blog main > hr,
