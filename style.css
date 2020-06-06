@@ -105,6 +105,7 @@ body .fill-children-accent * {
     .blog article,
     .archive article {
         position: relative;
+        margin-bottom:  2.633333333333333%;
     }
     .blog article .entry-header,
     .archive article .entry-header {
@@ -151,6 +152,11 @@ body .fill-children-accent * {
     .blog article .featured-media-inner,
     .archive article .featured-media-inner {
         width: 100%;
+    }
+
+    .blog .featured-media img,
+    .archive .featured-media img {
+        width: 100%
     }
 
     .blog main > article,
