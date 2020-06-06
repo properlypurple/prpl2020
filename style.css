@@ -65,7 +65,7 @@ body .fill-children-accent * {
 
 
 .singular .page .entry-header,
-.archive-header, 
+body .archive-header, 
 .singular .entry-header, 
 .singular .featured-media::before, 
 .wp-block-pullquote::before {
