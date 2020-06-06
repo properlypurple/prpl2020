@@ -64,8 +64,16 @@ body .fill-children-accent * {
 }
 
 
-.singular .page .entry-header {
+.singular .page .entry-header,
+archive-header, 
+.singular .entry-header, 
+.singular .featured-media::before, 
+.wp-block-pullquote::before {
     background-color: transparent;
+}
+
+.wpnbha.is-style-borders.is-grid article:last-of-type {
+    margin-bottom: 1em;
 }
 
 @media(min-width: 700px) {
@@ -75,7 +83,8 @@ body .fill-children-accent * {
         display: none;
     }
     
-    .blog main {
+    .blog main,
+    .archive main {
         width: calc(100% - 8rem);
         margin: 40px auto 0;
         display: flex;
@@ -88,14 +97,17 @@ body .fill-children-accent * {
         padding: 0;
     }
 
-    .blog .entry-title {
+    .blog .entry-title,
+    .archive .entry-title {
         font-size: 2.8rem;
     }
 
-    .blog article {
+    .blog article,
+    .archive article {
         position: relative;
     }
-    .blog article .entry-header {
+    .blog article .entry-header,
+    .archive article .entry-header {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -111,17 +123,21 @@ body .fill-children-accent * {
         align-items: flex-start;
         text-align: left;
     }
-    .blog article .entry-header * {
+    .blog article .entry-header *,
+    .archive article .entry-header * {
         text-align: left;
         justify-content: flex-start;
         align-items: flex-start;
     }
     .blog article .entry-header .entry-categories,
-    .blog article .entry-header .post-meta-wrapper {
+    .blog article .entry-header .post-meta-wrapper,
+    .archive article .entry-header .entry-categories,
+    .archive article .entry-header .post-meta-wrapper {
         margin: 5% 0 2%;
     }
 
-    .blog article .featured-media:hover {
+    .blog article .featured-media:hover,
+    .archive article .featured-media:hover  {
         opacity: 0.2;
     }
 
@@ -135,7 +151,8 @@ body .fill-children-accent * {
         width: 100%;
     }
 
-    .blog main > article {
+    .blog main > article,
+    .archive main > article {
         padding: 0;
         width: 30.7%;
     }
@@ -147,12 +164,15 @@ body .fill-children-accent * {
         margin-top: 0;
     }
 
-    .post-meta-edit-link-wrapper {
-        display: none;
-    }
+    
+}
 
-    .footer-top-visible .footer-nav-widgets-wrapper, 
-    .footer-top-hidden #site-footer {
-        margin-top: 0;
-    }
+
+.post-meta-edit-link-wrapper {
+    display: none;
+}
+
+.footer-top-visible .footer-nav-widgets-wrapper, 
+.footer-top-hidden #site-footer {
+    margin-top: 0;
 }
