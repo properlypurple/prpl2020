@@ -65,7 +65,7 @@ body .fill-children-accent * {
 
 
 .singular .page .entry-header,
-archive-header, 
+.archive-header, 
 .singular .entry-header, 
 .singular .featured-media::before, 
 .wp-block-pullquote::before {
@@ -141,13 +141,15 @@ archive-header,
         opacity: 0.2;
     }
 
-    .blog article .featured-media {
+    .blog article .featured-media,
+    .archive article .featured-media {
         margin: 0;
         opacity: 1;
         z-index: 2;
     }
 
-    .blog article .featured-media-inner {
+    .blog article .featured-media-inner,
+    .archive article .featured-media-inner {
         width: 100%;
     }
 
@@ -155,6 +157,11 @@ archive-header,
     .archive main > article {
         padding: 0;
         width: 30.7%;
+    }
+
+    .blog .archive-header,
+    .archive .archive-header {
+        width: 100%;
     }
 
     .page .post-inner {
