@@ -28,38 +28,38 @@ Updated: 2020-06-05 03:12:10
 }
 
 
-.color-accent,
-.color-accent-hover:hover,
-.color-accent-hover:focus,
-:root .has-accent-color,
-.has-drop-cap:not(:focus):first-letter,
-.wp-block-button.is-style-outline,
-a {
+body .color-accent,
+body .color-accent-hover:hover,
+body .color-accent-hover:focus,
+body :root .has-accent-color,
+body .has-drop-cap:not(:focus):first-letter,
+body .wp-block-button.is-style-outline,
+body a {
  color: #C85F49;
 }
-blockquote,
-.border-color-accent,
-.border-color-accent-hover:hover,
-.border-color-accent-hover:focus {
+body blockquote,
+body .border-color-accent,
+body .border-color-accent-hover:hover,
+body .border-color-accent-hover:focus {
  border-color: #C85F49;
 }
-button:not(.toggle),
-.button,
-.faux-button,
-.wp-block-button__link,
-.wp-block-file .wp-block-file__button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-.bg-accent,
-.bg-accent-hover:hover,
-.bg-accent-hover:focus,
+body button:not(.toggle),
+body .button,
+body .faux-button,
+body .wp-block-button__link,
+body .wp-block-file .wp-block-file__button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .bg-accent,
+body .bg-accent-hover:hover,
+body .bg-accent-hover:focus,
 :root .has-accent-background-color,
-.comment-reply-link {
+body .comment-reply-link {
  background-color: #C85F49;
 }
-.fill-children-accent,
-.fill-children-accent * {
+body .fill-children-accent,
+body .fill-children-accent * {
  fill: #C85F49;
 }
 
